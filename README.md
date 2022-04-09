@@ -23,6 +23,8 @@ findspark.init("C:\\Work\\spark-3.2.1-bin-hadoop3.2\\") to point to your Hadoop 
 If you are using the Spyder IDE you should install it with pip in your pyspark environment and run it from there. Also each time you might need to set the Python interpreter in Spyder to use the python.exe from your pyspark environment that you just created.
 Do not forget to call your .bat file where you set up Spark and Hadoop home folders before testing the scripts.
 
+Alternatively you can use SPARK-HOME/bin/spark-submit.cmd to execute a Python script.
+
 
 
 
