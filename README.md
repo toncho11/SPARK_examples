@@ -1,7 +1,7 @@
 # SPARK_examples
 Provides samples on how to use SPARK with empahasis on Python and Windows.
 
-Next you need to install Spark
+Installing Spark and pySpark:
 * download Spark. The download file should be similar to spark-3.2.1-bin-hadoop3.2.tgz
 * install Java 8
 * dowload Hadoop. The download file should be similar to hadoop-3.3.1.tar.gz
