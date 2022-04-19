@@ -9,7 +9,7 @@ Installing Spark:
 * Make a .bat file that sets both Spark and Hadoop home folders and paths. One is provided in this repository. You can use it as "call sethome.bat".
 
 Next you should create a new Python virtual environment and install PySpark.
-A new Python environment gurantees that you will not have problem with package dependencies (Python dependency hell). The price for that is a lot of extra disk space used.
+A new Python environment guarantees that you will not have problem with package dependencies (Python dependency hell). The price for that is a lot of extra disk space used.
 
 * $git clone this repository
 * $cd the repository 
