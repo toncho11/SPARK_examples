@@ -19,9 +19,9 @@ A new Python environment guarantees that you will not have problem with package 
 * (my_spark_env)$ pip install pyspark findspark
 
 Now you can test the provided python scripts for Core, SQL and ML. In each script you need to modify the following line: 
-findspark.init("C:\\Work\\spark-3.2.1-bin-hadoop3.2\\") to point to your Hadoop home folder.
-If you are using the Spyder IDE you should install it with pip in your pyspark environment and run it from there. Also each time you might need to set the Python interpreter in Spyder to use the python.exe from your pyspark environment that you just created.
-Do not forget to call your .bat file where you set up Spark and Hadoop home folders before testing the scripts.
+findspark.init("C:\\Work\\spark-3.2.1-bin-hadoop3.2\\") to point to your Spark home folder.
+If you are using the Spyder IDE you should install it with pip in your pyspark virtual environment and run it from there. Also each time you might need to set the Python interpreter in Spyder to use the python.exe from your pyspark environment that you just created.
+Do not forget to call your .bat file where you set up Spark and Hadoop home folders before testing the pyspark scripts.
 
 Alternatively you can use SPARK-HOME/bin/spark-submit.cmd to execute a Python script.
 
