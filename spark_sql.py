@@ -9,7 +9,7 @@ spark.conf.set("spark.sql.repl.eagerEval.enabled", True) # Property used to form
 spark
 
 # Load the csv into a dataframe
-titanic_df = spark.read.csv("train.csv", header=True, inferSchema=True)
+titanic_df = spark.read.csv("titanic.csv", header=True, inferSchema=True)
 
 print(titanic_df.select('PassengerId', 'Survived').limit(5))
 
