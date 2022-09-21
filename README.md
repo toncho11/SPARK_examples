@@ -39,7 +39,7 @@ If nothing happens first check if you are really using python from your environm
 # Diagnostics
 * Check if you are using SPARK_HOME or SPARK-HOME
 * Check your Python's home folder: python -c "import sys; print(sys.executable)"
-* Remove all your fake Python interpreters provided from Windows: del %USERPROFILE%\AppData\Local\Microsoft\WindowsApps\python*.*
+* Remove all your fake Python interpreters provided from Windows from your current user \AppData\Local\Microsoft\WindowsApps\python*.*
 * You can check you Spark version using: %SPARK_HOME%\bin\spark-shell
 * There is well known bug [cannot access class sun.nio.ch.DirectBuffer](https://stackoverflow.com/questions/73465937/apache-spark-3-3-0-breaks-on-java-17-with-cannot-access-class-sun-nio-ch-direct) that prevents Spark from starting on Java 17. More info [here](https://stackoverflow.com/questions/72724816/running-unit-tests-with-spark-3-3-0-on-java-17-fails-with-illegalaccesserror-cl).
 
