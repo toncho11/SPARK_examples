@@ -22,7 +22,7 @@ A new Python environment guarantees that you will not have problem with package 
 * (my_spark_env)$ pip install pyspark findspark
 
 # Running from the console
-Now you can test the provided python scripts for Core, SQL and ML.
+Now you can test the provided python scripts for Core, SQL and ML. See below for a common error [cannot access class sun.nio.ch.DirectBuffer](https://stackoverflow.com/questions/73465937/apache-spark-3-3-0-breaks-on-java-17-with-cannot-access-class-sun-nio-ch-direct).
 
 * got to your SPARK_examples folder
 * call .\my_spark_env\Scripts\activate
