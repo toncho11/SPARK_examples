@@ -31,7 +31,7 @@ Now you can test the provided python scripts for Core, SQL and ML.
 
 If nothing happens first check if you are really using python from your environment. 
 
-See below for the explanation of a common error [cannot access class sun.nio.ch.DirectBuffer](https://stackoverflow.com/questions/73465937/apache-spark-3-3-0-breaks-on-java-17-with-cannot-access-class-sun-nio-ch-direct).
+See below for the explanation of a common error [cannot access class sun.nio.ch.DirectBuffer](https://stackoverflow.com/questions/73465937/apache-spark-3-3-0-breaks-on-java-17-with-cannot-access-class-sun-nio-ch-direct) when starting Spark.
 
 # Usage notes
 * In each script you need to modify the following line: `findspark.init("C:\\Work\\spark-3.2.1-bin-hadoop3.2\\")` to point to your Spark home folder.
