@@ -36,7 +36,7 @@ If nothing happens first check if you are really using python from your environm
 * If you are using the Spyder IDE you must install it with pip in your pyspark virtual environment and run it from there. Also each time you might need to set manually the Python interpreter in Spyder to use the python.exe from your pyspark environment.
 * Do not forget to call your `sethome.bat` file where you set up Spark and Hadoop home folders before testing the pyspark scripts. 
 
-# Diagnostics
+# Diagnostic
 * Check if you are using `SPARK_HOME` or `SPARK-HOME`
 * Check your Python's home folder: `python -c "import sys; print(sys.executable)"`
 * Remove all your fake Python interpreters provided from Windows located in  `\AppData\Local\Microsoft\WindowsApps\`
