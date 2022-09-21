@@ -37,7 +37,7 @@ Alternatively you can use SPARK-HOME\bin\spark-submit.cmd to execute a Python sc
 * If you are using the Spyder IDE you must install it with pip in your pyspark virtual environment and run it from there. Also each time you might need to set manually the Python interpreter in Spyder to use the python.exe from your pyspark environment.
 * Do not forget to call your sethome.bat file where you set up Spark and Hadoop home folders before testing the pyspark scripts. 
 
-#Diagnostics
+# Diagnostics
 
 * You can check you Spark version using: %SPARK_HOME%\bin\spark-shell
 * There is well known bug [cannot access class sun.nio.ch.DirectBuffer](https://stackoverflow.com/questions/73465937/apache-spark-3-3-0-breaks-on-java-17-with-cannot-access-class-sun-nio-ch-direct) that prevents Spark from starting on Java 17. More info [here](https://stackoverflow.com/questions/72724816/running-unit-tests-with-spark-3-3-0-on-java-17-fails-with-illegalaccesserror-cl).
