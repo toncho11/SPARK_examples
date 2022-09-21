@@ -13,13 +13,13 @@ Provides samples and installation notes on how to use SPARK with empahasis on Py
 Next you should create a new Python virtual environment and install PySpark.
 A new Python environment guarantees that you will not have problem with package dependencies (Python dependency hell). The price for that is a lot of extra disk space used.
 
-* `$git clone this repository`
-* `$cd the repository` 
-* `$python -m venv my_spark_env` (better use your full path to python.exe as windows has reserved python.exe and python3.exe as shorcuts to the Windows Store like this `C:\Work\python38\python.exe -m venv my_spark_env`)
-* `$call .\my_spark_env\Scripts\activate` (activating your new virtualenv)
-* `$where python.exe` (verfication: the first output line should point to python.exe in your newly created environment)
-* `(my_spark_env)$ pip install --upgrade pip`
-* `(my_spark_env)$ pip install pyspark findspark`
+* $`git clone this repository`
+* $`cd the repository` 
+* $`python -m venv my_spark_env` (better use your full path to python.exe as windows has reserved python.exe and python3.exe as shorcuts to the Windows Store like this `C:\Work\python38\python.exe -m venv my_spark_env`)
+* $`call .\my_spark_env\Scripts\activate` (activating your new virtualenv)
+* $`where python.exe` (verfication: the first output line should point to python.exe in your newly created environment)
+* (my_spark_env)$`pip install --upgrade pip`
+* (my_spark_env)$`pip install pyspark findspark`
 
 # Running from the console
 Now you can test the provided python scripts for Core, SQL and ML. 
