@@ -19,14 +19,14 @@ A new Python environment guarantees that you will not have problem with package 
 * $`call .\my_spark_env\Scripts\activate` (activating your new virtual environment)
 * $`where python.exe` (verfication: the first output line should point to python.exe in your newly created environment)
 * (my_spark_env)$`pip install --upgrade pip`
-* (my_spark_env)$`pip install pyspark findspark`
+* (my_spark_env)$`pip install pyspark findspark` (installs the Python bindings to Spark)
 
 # Running from the console
 Now you can test the provided python scripts for Core, SQL and ML. 
 
 * got to your SPARK_examples folder
 * `call .\my_spark_env\Scripts\activate`
-* `call sethome.bat` (part of this repository, needs to be edite before calling it)
+* `call sethome.bat` (part of this repository, needs to be edited before calling it)
 * `python pyspark_test.py` (alternatively you can use `%SPARK_HOME%\bin\spark-submit.cmd pyspark_test.py` to execute a Python script)
 
 If nothing happens first check if you are really using python from your environment. See below for a common error [cannot access class sun.nio.ch.DirectBuffer](https://stackoverflow.com/questions/73465937/apache-spark-3-3-0-breaks-on-java-17-with-cannot-access-class-sun-nio-ch-direct).
