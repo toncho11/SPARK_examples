@@ -31,7 +31,6 @@ Now you can test the provided python scripts for Core, SQL and ML.
 
 If nothing happens first check if you are really using python from your environment.
 
-
 # Usage notes
 * In each script you need to modify the following line: findspark.init("C:\\Work\\spark-3.2.1-bin-hadoop3.2\\") to point to your Spark home folder.
 * If you are using the Spyder IDE you must install it with pip in your pyspark virtual environment and run it from there. Also each time you might need to set manually the Python interpreter in Spyder to use the python.exe from your pyspark environment.
@@ -40,6 +39,7 @@ If nothing happens first check if you are really using python from your environm
 # Diagnostics
 * Check if you are using SPARK_HOME or SPARK-HOME
 * Check your Python's home folder: python -c "import sys; print(sys.executable)"
+* Remove (move to a folder) all your fake Python interpreters provided from Windows: move C:\Users\antona\AppData\Local\Microsoft\WindowsApps\python*.* C:\temp
 * You can check you Spark version using: %SPARK_HOME%\bin\spark-shell
 * There is well known bug [cannot access class sun.nio.ch.DirectBuffer](https://stackoverflow.com/questions/73465937/apache-spark-3-3-0-breaks-on-java-17-with-cannot-access-class-sun-nio-ch-direct) that prevents Spark from starting on Java 17. More info [here](https://stackoverflow.com/questions/72724816/running-unit-tests-with-spark-3-3-0-on-java-17-fails-with-illegalaccesserror-cl).
 
