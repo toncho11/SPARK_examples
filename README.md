@@ -5,7 +5,7 @@ Provides samples and installation instructions on how to use Spark with Python o
 * download Spark. The download file should be similar to spark-3.2.1-bin-hadoop3.2.tgz
 * install Java 8
 * dowload Hadoop. The download file should be similar to hadoop-3.3.1.tar.gz
-* On Windows you need to download separately winutils.exe and put it in HADOOP_HOME\bin (otherwise it fails to start)
+* On Windows you need to download separately [winutils.exe](https://github.com/steveloughran/winutils) and put it in HADOOP_HOME\bin (otherwise it fails to start)
 * Make a .bat file that sets both Spark and Hadoop home folders and paths. One is provided in this repository. You can use it as `call sethome.bat`.
 
 # Initial repository set-up
