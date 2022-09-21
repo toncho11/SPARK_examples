@@ -27,7 +27,7 @@ Now you can test the provided python scripts for Core, SQL and ML.
 * got to your SPARK_examples folder
 * call .\my_spark_env\Scripts\activate
 * call sethome.bat (part of this repository, needs to be edite before calling it)
-* python pyspark_test.py (alternatively you can use SPARK_HOME\bin\spark-submit.cmd to execute a Python script)
+* python pyspark_test.py (alternatively you can use %SPARK_HOME%\bin\spark-submit.cmd pyspark_test.py to execute a Python script)
 
 If nothing happens first check if you are really using python from your environment.
 
@@ -39,6 +39,7 @@ If nothing happens first check if you are really using python from your environm
 
 # Diagnostics
 * Check if you are using SPARK_HOME or SPARK-HOME
+* Check your Python's home folder: python -c "import sys; print(sys.executable)"
 * You can check you Spark version using: %SPARK_HOME%\bin\spark-shell
 * There is well known bug [cannot access class sun.nio.ch.DirectBuffer](https://stackoverflow.com/questions/73465937/apache-spark-3-3-0-breaks-on-java-17-with-cannot-access-class-sun-nio-ch-direct) that prevents Spark from starting on Java 17. More info [here](https://stackoverflow.com/questions/72724816/running-unit-tests-with-spark-3-3-0-on-java-17-fails-with-illegalaccesserror-cl).
 
