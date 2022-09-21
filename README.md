@@ -40,7 +40,7 @@ See below for the explanation of a common error [cannot access class sun.nio.ch.
 
 # Diagnostic
 * Check if you are using `SPARK_HOME` or `SPARK-HOME`
-* Check your Python's home folder: `python -c "import sys; print(sys.executable)"`
+* Check your Python's home folder: `python -c "import sys; print(sys.executable)"` It should be the one in your Spark dedicated environment.
 * Remove all your fake Python interpreters provided from Windows located in  `\AppData\Local\Microsoft\WindowsApps\`
 * If Spark searches for "python3" then make a copy of "python.exe" called "python3.exe" in your "\Scripts" folder in your python environment.
 * You can check you Spark version using: `%SPARK_HOME%\bin\spark-shell`
