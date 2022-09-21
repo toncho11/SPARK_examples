@@ -26,9 +26,10 @@ Now you can test the provided python scripts for Core, SQL and ML.
 
 * got to your SPARK_examples folder
 * call .\my_spark_env\Scripts\activate
-* sethome.bat (part of this repository)
-* .\Scripts\python pyspark_test.py
+* call sethome.bat (part of this repository, needs to be edite before calling it)
+* python pyspark_test.py
 
+If nothing happens first check if you are really using python from your environment.
 Alternatively you can use SPARK-HOME\bin\spark-submit.cmd to execute a Python script.
 
 # Usage notes
