@@ -1,5 +1,5 @@
 # SPARK_examples
-Provides samples and installation notes on how to use SPARK with empahasis on Python and Windows.
+Provides samples and installation instructions on how to use Spark with Python on Windows.
 
 # Installing Spark:
 * download Spark. The download file should be similar to spark-3.2.1-bin-hadoop3.2.tgz
